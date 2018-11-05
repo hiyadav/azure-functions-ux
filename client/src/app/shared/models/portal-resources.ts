@@ -1476,4 +1476,6 @@ export class PortalResources {
   public static byos_storageNameExists = 'byos_storageNameExists';
   public static unableToReachBuild = 'unableToReachBuild';
   public static invalidWindowsPathCdrive = 'invalidWindowsPathCdrive';
+  public static scaleOut = 'scaleOut';
+  public static scaleOutDescription = 'scaleOutDescription';
 }

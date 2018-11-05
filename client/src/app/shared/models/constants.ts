@@ -288,6 +288,7 @@ export class ScenarioIds {
   public static readonly openClassicMsi = 'openClassicMsi';
   public static readonly byosSupported = 'byosSupported';
   public static readonly configureAADSupported = 'configureAADSupported';
+  public static readonly addScaleOut = 'addScaleOut';
 }
 
 export class NationalCloudArmUris {
