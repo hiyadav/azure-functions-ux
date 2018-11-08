@@ -10,6 +10,7 @@ import connectionStrings from './site/config/connectionstrings/reducer';
 import slots from './site/slots/reducer';
 import rbac from './service/rbac/reducer';
 import slotConfigNames from './site/config/slotConfigNames/reducer';
+import logStream from './site/config/logstream/reducer';
 
 export const reducers = combineReducers({
   portalService,
@@ -24,4 +25,5 @@ export const reducers = combineReducers({
   slots,
   rbac,
   slotConfigNames,
+  logStream,
 });
