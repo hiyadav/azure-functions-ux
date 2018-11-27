@@ -58,10 +58,8 @@
     <div *ngIf="keepVisible || featureSupported || loadingFailed" class="config-wrapper">
         <info-box
             *ngIf="!fetchingContent && !!siteArm && (!relativeSlotsArm || relativeSlotsArm.length === 0)"
-            [isBanner]="true"
             [infoText]="'slotsList_noSlots' | translate"
-            typeClass="upsell"
-            [infoActionFn]="showAddControlsFn">
+            typeClass="info">
         </info-box>
 
         <div class="config-container"

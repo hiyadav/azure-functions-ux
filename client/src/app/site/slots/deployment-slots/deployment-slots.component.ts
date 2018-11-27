@@ -64,7 +64,6 @@ export class DeploymentSlotsComponent extends FeatureComponent<TreeViewInfo<Site
   public slotsQuotaMessage: string;
   public slotsQuotaScaleUp: () => void;
 
-  public showAddControlsFn: () => void;
   public addControlsOpen = false;
   public swapControlsOpen = false;
 
@@ -107,10 +106,6 @@ export class DeploymentSlotsComponent extends FeatureComponent<TreeViewInfo<Site
       if (this._confirmIfDirty()) {
         this.scaleUp();
       }
-    };
-
-    this.showAddControlsFn = () => {
-      this.showAddControls();
     };
 
     this._setupBroadcastSubscriptions();
